@@ -683,44 +683,21 @@ class SoftwareUpdatePlugin(
     # ~~ SettingsPlugin API
 
     def get_settings_defaults(self):
-        update_script = os.path.join(self._basefolder, "scripts", "update-octoprint.py")
-        default_update_script = (
-            '{{python}} "{update_script}" --branch={{branch}} '
-            '--force={{force}} "{{folder}}" {{target}}'.format(
-                update_script=update_script
-            )
-        )
-
         return {
             "checks": {
                 "octoprint": {
                     "type": "github_release",
-                    "user": "foosel",
-                    "repo": "OctoPrint",
+                    "user": "OctoPrint",
+                    "repo": "OctoPrint-Legacy",
                     "method": "pip",
-                    "pip": "https://github.com/OctoPrint/OctoPrint/archive/{target_version}.zip",
-                    "update_script": default_update_script,
+                    "pip": "https://github.com/OctoPrint/OctoPrint-Legacy/archive/{target_version}.zip",
                     "restart": "octoprint",
                     "stable_branch": {
-                        "branch": "master",
-                        "commitish": ["master"],
+                        "branch": "python2",
+                        "commitish": ["python2"],
                         "name": "Stable",
                     },
-                    "prerelease_branches": [
-                        {
-                            "branch": "rc/maintenance",
-                            "commitish": ["rc/maintenance"],  # maintenance RCs
-                            "name": "Maintenance RCs",
-                        },
-                        {
-                            "branch": "rc/devel",
-                            "commitish": [
-                                "rc/maintenance",
-                                "rc/devel",
-                            ],  # devel & maintenance RCs
-                            "name": "Devel RCs",
-                        },
-                    ],
+                    "prerelease_branches": [],
                 },
             },
             "pip_command": None,
