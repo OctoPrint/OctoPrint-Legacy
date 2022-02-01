@@ -91,6 +91,15 @@ jobs:
         if: matrix.installable == 'sdist'
         run: |
           pip install dist/OctoPrint-*.tar.gz
+      - name: ✅ Persist pip freeze output
+        run: |
+          pip freeze > pip_freeze_${{ matrix.python }}_${{ matrix.installable }}.txt
+      - name: ⬆ Upload pip freeze output
+        uses: actions/upload-artifact@v1
+        if: always()
+        with:
+          name: pip-freeze-${{ matrix.python }}-${{ matrix.installable }}
+          path: pip_freeze_${{ matrix.python }}_${{ matrix.installable }}.txt
 
   test-e2e:
     name: 🧪 E2E tests
@@ -138,59 +147,3 @@ jobs:
         with:
           name: cypress-videos
           path: tests/cypress/videos
-
-  publish-on-testpypi:
-    name: 📦 Publish on TestPyPI
-    if: github.event_name == 'release'
-    needs:
-      - pre-commit
-      - test-unit
-      - test-install
-      - test-e2e
-    runs-on: ubuntu-latest
-    steps:
-      - name: ⬇ Download build result
-        uses: actions/download-artifact@v1
-        with:
-          name: dist
-          path: dist
-      - name: 📦 Publish to index
-        uses: pypa/gh-action-pypi-publish@master
-        continue-on-error: true
-        with:
-          password: ${{ secrets.testpypi_password }}
-          repository_url: https://test.pypi.org/legacy/
-
-  publish-on-pypi:
-    name: 📦 Publish tagged releases to PyPI
-    if: github.event_name == 'release'
-    needs: publish-on-testpypi
-    runs-on: ubuntu-latest
-    steps:
-      - name: ⬇ Download build result
-        uses: actions/download-artifact@v1
-        with:
-          name: dist
-          path: dist
-      - name: 📦 Publish to index
-        uses: pypa/gh-action-pypi-publish@master
-        with:
-          password: ${{ secrets.pypi_password }}
-
-  notify-custopizer-build:
-    name: 📧 Notify OctoPi-UpToDate
-    if: github.event_name == 'release'
-    needs: publish-on-pypi
-    runs-on: ubuntu-latest
-    steps:
-      - name: 👀 Determine version
-        run: |
-          OCTOPRINT_VERSION=$(echo $GITHUB_REF | cut -d/ -f3)
-          echo "OCTOPRINT_VERSION=$OCTOPRINT_VERSION" >> $GITHUB_ENV
-      - name: 🚀 Repository Dispatch
-        uses: peter-evans/repository-dispatch@v1
-        with:
-          token: ${{ secrets.REPODISPATCH_TOKEN }}
-          repository: OctoPrint/OctoPi-UpToDate
-          event-type: octoprint_release
-          client-payload: '{"version": "${{ env.OCTOPRINT_VERSION }}"}'

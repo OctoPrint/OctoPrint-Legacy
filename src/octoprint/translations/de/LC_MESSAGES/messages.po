@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OctoPrint 1.7.0\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
-"POT-Creation-Date: 2021-10-11 10:35+0200\n"
+"POT-Creation-Date: 2022-02-01 13:23+0100\n"
 "PO-Revision-Date: 2021-08-04 11:01+0200\n"
 "Last-Translator: Gina Häußge <gina@octoprint.org>\n"
 "Language: de\n"
@@ -271,7 +271,7 @@ msgstr "Nie"
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:348
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:456
 #: src/octoprint/templates/dialogs/settings/webcam.jinja2:14
-#: src/octoprint/templates/dialogs/settings/webcam.jinja2:32
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:31
 #: src/octoprint/templates/snippets/settings/server/serverPluginBlacklist.jinja2:5
 #: src/octoprint/templates/tabs/terminal.jinja2:35
 msgid "Advanced options"
@@ -423,16 +423,16 @@ msgstr "Aktionen"
 msgid "Refresh Announcements"
 msgstr "Ankündigungen aktualisieren"
 
-#: src/octoprint/plugins/appkeys/__init__.py:127
+#: src/octoprint/plugins/appkeys/__init__.py:123
 msgid "Allows administrating all application keys"
 msgstr "Erlaubt die Administration aller Applicationkeys"
 
-#: src/octoprint/plugins/appkeys/__init__.py:138
-#: src/octoprint/plugins/appkeys/__init__.py:139
+#: src/octoprint/plugins/appkeys/__init__.py:134
+#: src/octoprint/plugins/appkeys/__init__.py:135
 msgid "Application Keys"
 msgstr "Application Keys"
 
-#: src/octoprint/plugins/appkeys/__init__.py:485
+#: src/octoprint/plugins/appkeys/__init__.py:484
 msgid ""
 "Without this plugin third party clients will no longer be able to obtain "
 "an API key without you manually copy-pasting it."
@@ -632,7 +632,7 @@ msgstr "Sicherung & Wiederherstellung"
 msgid "Restore Backup?"
 msgstr "Sicherung wiederherstellen?"
 
-#: src/octoprint/plugins/backup/__init__.py:1411
+#: src/octoprint/plugins/backup/__init__.py:1414
 msgid ""
 "Without this plugin you will no longer be able to backup & restore your "
 "OctoPrint settings and data."
@@ -1311,7 +1311,7 @@ msgstr ""
 #: src/octoprint/templates/snippets/settings/accesscontrol/groups.jinja2:60
 #: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:70
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditor.jinja2:9
-#: src/octoprint/templates/tabs/control.jinja2:135
+#: src/octoprint/templates/tabs/control.jinja2:132
 msgid "General"
 msgstr "Allgemein"
 
@@ -1411,7 +1411,7 @@ msgstr ""
 "Server</strong> erreichbar ist.</p>"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_webcam_wizard.jinja2:33
-#: src/octoprint/templates/dialogs/settings/webcam.jinja2:23
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:22
 msgid "Timelapse Recordings"
 msgstr "Zeitrafferaufnahmen"
 
@@ -1691,7 +1691,7 @@ msgid "Filament"
 msgstr "Filament"
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:735
-#: src/octoprint/static/js/app/viewmodels/control.js:87
+#: src/octoprint/static/js/app/viewmodels/control.js:85
 #: src/octoprint/static/js/app/viewmodels/files.js:1013
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:357
 #: src/octoprint/static/js/app/viewmodels/temperature.js:146
@@ -1945,13 +1945,13 @@ msgstr ""
 msgid "Yes, please visualize %(name)s regardless of its size"
 msgstr "Ja, bitte visualisiere %(name)s unabhängig seiner Größe"
 
-#: src/octoprint/plugins/logging/__init__.py:42
+#: src/octoprint/plugins/logging/__init__.py:44
 msgid "Allows to download and delete log files and list and set log levels."
 msgstr ""
 "Erlaubt den Download von Logdateien sowie deren Löschung und das Setzen "
 "von Loglevels."
 
-#: src/octoprint/plugins/logging/__init__.py:278
+#: src/octoprint/plugins/logging/__init__.py:285
 msgid ""
 "Without this plugin you will no longer be able to retrieve OctoPrint's "
 "logs or modify the current logging levels through the web interface."
@@ -2965,57 +2965,57 @@ msgstr "Abbruch"
 msgid "Save"
 msgstr "Speichern"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:147
+#: src/octoprint/plugins/softwareupdate/__init__.py:148
 msgid "Allows to check for software updates"
 msgstr "Erlaubt das Prüfen auf Softwareaktualisierungen"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:154
+#: src/octoprint/plugins/softwareupdate/__init__.py:155
 msgid "Allows to perform software updates"
 msgstr "Erlaubt das Durchführen von Softwareaktualisierungen"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:162
+#: src/octoprint/plugins/softwareupdate/__init__.py:163
 msgid "Allows to configure software update"
 msgstr "Erlaubt das Konfigurieren von Softwareaktualisierungen"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1153
+#: src/octoprint/plugins/softwareupdate/__init__.py:1149
 msgid "Python package installation folder"
 msgstr "Python-Paket-Installationsverzeichnis"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1154
+#: src/octoprint/plugins/softwareupdate/__init__.py:1150
 msgid "Plugin folder"
 msgstr "Pluginverzeichnis"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1155
+#: src/octoprint/plugins/softwareupdate/__init__.py:1151
 msgid "System temporary files"
 msgstr "Temporäre Dateien"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1187
+#: src/octoprint/plugins/softwareupdate/__init__.py:1183
 #: src/octoprint/templates/footer.jinja2:4
 msgid "Python"
 msgstr "Python"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1194
-#: src/octoprint/plugins/softwareupdate/__init__.py:2273
+#: src/octoprint/plugins/softwareupdate/__init__.py:1190
+#: src/octoprint/plugins/softwareupdate/__init__.py:2269
 msgid "pip"
 msgstr "pip"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1201
+#: src/octoprint/plugins/softwareupdate/__init__.py:1197
 msgid "setuptools"
 msgstr "setuptools"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1432
-#: src/octoprint/plugins/softwareupdate/__init__.py:1449
+#: src/octoprint/plugins/softwareupdate/__init__.py:1428
+#: src/octoprint/plugins/softwareupdate/__init__.py:1445
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_wizard_settings.jinja2:1
 msgid "Software Update"
 msgstr "Software Update"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1439
+#: src/octoprint/plugins/softwareupdate/__init__.py:1435
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_wizard_update.jinja2:1
 #, fuzzy
 msgid "Update?"
 msgstr "Aktualisieren"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:2211
+#: src/octoprint/plugins/softwareupdate/__init__.py:2207
 #: src/octoprint/server/views.py:1048
 #: src/octoprint/static/js/app/viewmodels/appearance.js:106
 #: src/octoprint/static/js/app/viewmodels/appearance.js:110
@@ -3027,7 +3027,7 @@ msgstr "Aktualisieren"
 msgid "OctoPrint"
 msgstr "OctoPrint"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:2435
+#: src/octoprint/plugins/softwareupdate/__init__.py:2431
 msgid ""
 "Without this plugin OctoPrint will no longer be able to update itself or "
 "any of your installed plugins which might put your system at risk."
@@ -4190,36 +4190,34 @@ msgstr ""
 "%(reason)s</p>"
 
 #: src/octoprint/static/js/app/dataupdater.js:241
-msgid "You are still running Python 2"
-msgstr "Du nutzt noch immer Python 2"
+msgid "You are still running Python 2 and will no longer receive updates"
+msgstr "Du nutzt noch immer Python 2 und wirst keine Updates mehr erhalten"
 
-#: src/octoprint/static/js/app/dataupdater.js:243
+#: src/octoprint/static/js/app/dataupdater.js:245
 msgid ""
-"<p>Python 2 is end-of-life as of January 1st 2020. While OctoPrint "
-"currently still supports running under Python 2, a future version will "
-"remove support and require Python 3. You should upgrade as soon as "
-"possible!</p><p>Please refer to the FAQ for recommended update "
-"workflows:</p>"
+"<p>Python 2 has been end-of-life since January 1st 2020. OctoPrint 1.8.0 "
+"and later requires Python 3. As you are still running under Python 2 you "
+"will no longer receive updates. You should upgrade to Python 3 "
+"now!</p><p>Please refer to the FAQ for recommended update workflows:</p>"
 msgstr ""
-"<p>Python 2 ist seit dem 1. Januar 2020 end-of-life. Zwar unterstützt "
-"OctoPrint aktuell noch Python 2, eine zukünftige Version wird jedoch "
-"Python 3 benötigen. Du solltest so bald wie möglich auf Python 3 "
-"aktualisieren!</p><p>Die FAQ enthält Informationen über mögliche "
-"Upgradepfade:</p>"
+"<p>Python 2 ist seit dem 1. Januar 2020 end-of-life. OctoPrint 1.8.0 und "
+"spätere Versionen benötigen Python 3. Da du noch immer Python 2 nutzt, wirst "
+"du keine Updates mehr erhalten. Du solltest jetzt auf Python 3 aktualisieren!</p>"
+"<p>Die FAQ enthält Informationen über mögliche Upgradepfade:</p>"
 
-#: src/octoprint/static/js/app/dataupdater.js:297
+#: src/octoprint/static/js/app/dataupdater.js:299
 #: src/octoprint/static/js/app/viewmodels/files.js:1349
 #: src/octoprint/static/js/app/viewmodels/files.js:1358
 #, python-format
 msgid "Slicing ... (%(percentage)d%%)"
 msgstr "Slice ... (%(percentage)d%%)"
 
-#: src/octoprint/static/js/app/dataupdater.js:336
-#: src/octoprint/static/js/app/dataupdater.js:349
+#: src/octoprint/static/js/app/dataupdater.js:338
+#: src/octoprint/static/js/app/dataupdater.js:351
 msgid "Error reported by printer"
 msgstr "Fehler vom Drucker gemeldet"
 
-#: src/octoprint/static/js/app/dataupdater.js:338
+#: src/octoprint/static/js/app/dataupdater.js:340
 #, python-format
 msgid ""
 "Your printer's firmware reported an error. Due to that the ongoing print "
@@ -4229,7 +4227,7 @@ msgstr ""
 "Daher wird der laufende Druckauftrag abgebrochen. Fehler: "
 "%(firmwareError)s"
 
-#: src/octoprint/static/js/app/dataupdater.js:351
+#: src/octoprint/static/js/app/dataupdater.js:353
 #, python-format
 msgid ""
 "Your printer's firmware reported an error. Due to that OctoPrint will "
@@ -4238,11 +4236,11 @@ msgstr ""
 "Die Firmware Deines Druckers hat einen Fehler gemeldet. Darum hat "
 "OctoPrint die Verbindung geschlossen. Gemeldeter Fehler: %(error)s"
 
-#: src/octoprint/static/js/app/dataupdater.js:361
+#: src/octoprint/static/js/app/dataupdater.js:363
 msgid "Communication error"
 msgstr "Kommunikationsfehler"
 
-#: src/octoprint/static/js/app/dataupdater.js:363
+#: src/octoprint/static/js/app/dataupdater.js:365
 #, python-format
 msgid ""
 "There was a communication error while talking to your printer. Please "
@@ -4253,31 +4251,31 @@ msgstr ""
 "konsultiere den Terminaloutput und octoprint.log für Details. Fehler: "
 "%(error)s"
 
-#: src/octoprint/static/js/app/dataupdater.js:371
+#: src/octoprint/static/js/app/dataupdater.js:373
 msgid "Error connecting to printer"
 msgstr "Fehler bei der Verbindung zum Drucker"
 
-#: src/octoprint/static/js/app/dataupdater.js:373
+#: src/octoprint/static/js/app/dataupdater.js:375
 #, python-format
 msgid ""
 "There was an error while trying to connect to your printer. Error: "
 "%(error)s"
 msgstr "Es gab einen Fehler bei der Verbindung zum Drucker. Fehler: %(error)s"
 
-#: src/octoprint/static/js/app/dataupdater.js:381
+#: src/octoprint/static/js/app/dataupdater.js:383
 msgid "Error starting a print"
 msgstr "Fehler beim Start eines Drucks"
 
-#: src/octoprint/static/js/app/dataupdater.js:383
+#: src/octoprint/static/js/app/dataupdater.js:385
 #, python-format
 msgid "There was an error while trying to start a print job. Error: %(error)s"
 msgstr "Es gab einen Fehler beim Start eines Drucks. Fehler: %(error)s"
 
-#: src/octoprint/static/js/app/dataupdater.js:395
+#: src/octoprint/static/js/app/dataupdater.js:397
 msgid "Unknown error"
 msgstr "Unbekannter Fehler"
 
-#: src/octoprint/static/js/app/dataupdater.js:397
+#: src/octoprint/static/js/app/dataupdater.js:399
 #, python-format
 msgid ""
 "There was an unknown error while talking to your printer. Please consult "
@@ -4287,7 +4285,7 @@ msgstr ""
 "Bitte konsultiere den Terminaloutput und octoprint.log für Details. "
 "Fehler: %(error)s"
 
-#: src/octoprint/static/js/app/dataupdater.js:419
+#: src/octoprint/static/js/app/dataupdater.js:421
 msgid ""
 "It looks like your printer reset while a connection was active. If this "
 "was intentional you may safely ignore this message. Otherwise you should "
@@ -4300,7 +4298,7 @@ msgstr ""
 "dies Druckaufträge und Filetransfers zu der SD Karte deines Druckers "
 "unterbrechen wird."
 
-#: src/octoprint/static/js/app/dataupdater.js:424
+#: src/octoprint/static/js/app/dataupdater.js:426
 msgid ""
 "It looks like your printer reset while a connection was active. Due to "
 "this the ongoing job was aborted. If this was intentional you may safely "
@@ -4314,7 +4312,7 @@ msgstr ""
 " prüfen, warum sich dein Drucker resettet hat, da dies Druckaufträge und "
 "Filetransfers zu der SD Karte deines Druckers unterbrechen wird."
 
-#: src/octoprint/static/js/app/dataupdater.js:434
+#: src/octoprint/static/js/app/dataupdater.js:436
 msgid "Printer reset detected"
 msgstr "Druckerreset erkannt"
 
@@ -4587,7 +4585,7 @@ msgstr "Bist Du sicher, dass du die Verbindung zum Drucker trennen willst?"
 msgid "Stay Connected"
 msgstr "Verbunden bleiben"
 
-#: src/octoprint/static/js/app/viewmodels/control.js:93
+#: src/octoprint/static/js/app/viewmodels/control.js:91
 msgid "Hotend"
 msgstr "Hotend"
 
@@ -5124,23 +5122,23 @@ msgstr "Weiß"
 msgid "Autodetect from browser"
 msgstr "Automatisch vom Browser erkennen"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:438
+#: src/octoprint/static/js/app/viewmodels/settings.js:437
 msgid "If you see your webcam stream below, the entered stream URL is ok."
 msgstr "Falls du unten den Webcamstream sehen kannst, ist die Stream-URL ok."
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:480
+#: src/octoprint/static/js/app/viewmodels/settings.js:467
 msgid "Stream test"
 msgstr "Stream Test"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:502
+#: src/octoprint/static/js/app/viewmodels/settings.js:485
 msgid "Could not retrieve snapshot URL, please double check the URL"
 msgstr "Konnte die Snapshot-URL nicht abgreifen, bitte prüfen"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:505
+#: src/octoprint/static/js/app/viewmodels/settings.js:488
 msgid "Snapshot test failed"
 msgstr "Snapshot Test fehlgeschlagen"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:525
+#: src/octoprint/static/js/app/viewmodels/settings.js:508
 #, python-format
 msgid ""
 "Could retrieve the snapshot URL, but it didn't look like an image. Got "
@@ -5152,66 +5150,66 @@ msgstr ""
 "aus: <code>%(content_type)s</code>. Bitte überprüfe, dass die URL "
 "einzelne Bilder zurückliefert, nicht multipart Daten oder Videos."
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:554
+#: src/octoprint/static/js/app/viewmodels/settings.js:537
 msgid ""
 "If you see your webcam snapshot picture below, the entered snapshot URL "
 "is ok."
 msgstr "Falls du unten dein Snapshotbild sehen kannst, ist die Snapshot-URL ok."
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:558
+#: src/octoprint/static/js/app/viewmodels/settings.js:541
 msgid "Snapshot test"
 msgstr "Snapshot Test"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:600
+#: src/octoprint/static/js/app/viewmodels/settings.js:583
 msgid "The path doesn't exist"
 msgstr "Der Pfad existiert nicht"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:602
+#: src/octoprint/static/js/app/viewmodels/settings.js:585
 msgid "The path is not a file"
 msgstr "Der Pfad ist keine Datei"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:605
+#: src/octoprint/static/js/app/viewmodels/settings.js:588
 msgid "The path is not an executable"
 msgstr "Der Pfad ist nicht ausführbar"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:609
-#: src/octoprint/static/js/app/viewmodels/settings.js:710
+#: src/octoprint/static/js/app/viewmodels/settings.js:592
+#: src/octoprint/static/js/app/viewmodels/settings.js:693
 msgid "The path is valid"
 msgstr "Der Pfad ist valide"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:634
+#: src/octoprint/static/js/app/viewmodels/settings.js:617
 msgid "The server is not reachable"
 msgstr "Der Server ist nicht erreichbar"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:637
+#: src/octoprint/static/js/app/viewmodels/settings.js:620
 msgid "The server is reachable"
 msgstr "Der Server ist erreichbar"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:658
+#: src/octoprint/static/js/app/viewmodels/settings.js:641
 msgid "Name cannot be resolved"
 msgstr "Name kann nicht aufgelöst werden"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:662
+#: src/octoprint/static/js/app/viewmodels/settings.js:645
 msgid "Name can be resolved"
 msgstr "Name kann aufgelöst werden"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:694
+#: src/octoprint/static/js/app/viewmodels/settings.js:677
 msgid "The path is a broken symlink."
 msgstr "Der Pfad ist ein kaputter Symlink."
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:698
+#: src/octoprint/static/js/app/viewmodels/settings.js:681
 msgid "The path does not exist and cannot be created."
 msgstr "Der Pfad existiert nicht und kann nicht erstellt werden."
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:702
+#: src/octoprint/static/js/app/viewmodels/settings.js:685
 msgid "The path is not a folder."
 msgstr "Der Pfad ist kein Verzeichnis."
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:706
+#: src/octoprint/static/js/app/viewmodels/settings.js:689
 msgid "The path is not writable."
 msgstr "Der Pfad ist nicht beschreibbar."
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:847
+#: src/octoprint/static/js/app/viewmodels/settings.js:830
 #: src/octoprint/static/js/app/viewmodels/usersettings.js:122
 msgid ""
 "This will generate a new API Key. The old API Key will cease to function "
@@ -5594,7 +5592,7 @@ msgstr "Bitte einloggen"
 
 #: src/octoprint/templates/login.jinja2:46
 #, fuzzy
-msgid "Incorrect username or password. Hint: Both are case sensitive!"
+msgid "Incorrect username or password."
 msgstr "Username oder Passwort inkorrekt."
 
 #: src/octoprint/templates/login.jinja2:47
@@ -8552,35 +8550,15 @@ msgstr ""
 "Muss vom Browser erreichbar sein, in dem die OctoPrint UI angezeigt wird,"
 " wird genutzt, um den Webcam Stream in die Seite einzubetten."
 
-#: src/octoprint/templates/snippets/settings/webcam/webcamStreamWebrtcIceServers.jinja2:1
-msgid "ICE server (STUN and/or TURN) to use for WebRTC"
-msgstr ""
-
-#: src/octoprint/templates/snippets/settings/webcam/webcamStreamWebrtcIceServers.jinja2:2
-msgid "WebRTC ICE endpoint"
-msgstr ""
-
-#: src/octoprint/templates/snippets/settings/webcam/webcamStreamWebrtcIceServers.jinja2:5
-msgid "WebRTC"
-msgstr ""
-
-#: src/octoprint/templates/snippets/settings/webcam/webcamStreamWebrtcIceServers.jinja2:5
-msgid ""
-"Only used for WebRTC streams. Optionally specify the ICE server(s) (STUN "
-"and/or TURN) to use for WebRTC. Multiple servers should be separated by a"
-" comma. If unsure, leave at the default of "
-"<code>stun:stun.l.google.com:19302</code>."
-msgstr ""
-
-#: src/octoprint/templates/tabs/control.jinja2:12
+#: src/octoprint/templates/tabs/control.jinja2:9
 msgid "Webcam stream loading..."
 msgstr "Webcamstream lädt..."
 
-#: src/octoprint/templates/tabs/control.jinja2:15
+#: src/octoprint/templates/tabs/control.jinja2:12
 msgid "Webcam stream not loaded"
 msgstr "Webcamstream nicht geladen"
 
-#: src/octoprint/templates/tabs/control.jinja2:16
+#: src/octoprint/templates/tabs/control.jinja2:13
 msgid ""
 "It might not be configured correctly or require authentication. To have "
 "this fixed, get in touch with an administrator of this OctoPrint "
@@ -8590,7 +8568,7 @@ msgstr ""
 "benötigt. Um dies zu beheben wende dich bitte an einen Administrator "
 "dieser OctoPrint Instanz."
 
-#: src/octoprint/templates/tabs/control.jinja2:17
+#: src/octoprint/templates/tabs/control.jinja2:14
 msgid ""
 "It might not be configured correctly or require authentication. You can "
 "change the URL of the stream under \"Settings\" > \"Webcam & Timelapse\" "
@@ -8602,63 +8580,63 @@ msgstr ""
 "\"Webcam & Zeitraffer\" > \"Webcam\" > \"Stream-URL\" ändern. Falls du "
 "keine Webcam hast kannst du Webcam-Unterstützung dort auch deaktivieren."
 
-#: src/octoprint/templates/tabs/control.jinja2:18
+#: src/octoprint/templates/tabs/control.jinja2:15
 msgid "Currently configured stream URL"
 msgstr "Aktuell konfigurierte Stream-URL"
 
-#: src/octoprint/templates/tabs/control.jinja2:29
+#: src/octoprint/templates/tabs/control.jinja2:26
 msgid "Keyboard controls active"
 msgstr "Tastatursteuerung aktiv"
 
-#: src/octoprint/templates/tabs/control.jinja2:32
+#: src/octoprint/templates/tabs/control.jinja2:29
 msgid "X Axis"
 msgstr "X-Achse"
 
-#: src/octoprint/templates/tabs/control.jinja2:33
+#: src/octoprint/templates/tabs/control.jinja2:30
 msgid "Y Axis"
 msgstr "Y-Achse"
 
-#: src/octoprint/templates/tabs/control.jinja2:34
+#: src/octoprint/templates/tabs/control.jinja2:31
 msgid "Page&uarr;"
 msgstr "Bild&uarr;"
 
-#: src/octoprint/templates/tabs/control.jinja2:34
+#: src/octoprint/templates/tabs/control.jinja2:31
 msgid "Page&darr;"
 msgstr "Bild&darr;"
 
-#: src/octoprint/templates/tabs/control.jinja2:34
+#: src/octoprint/templates/tabs/control.jinja2:31
 msgid "Z Axis"
 msgstr "Z-Achse"
 
-#: src/octoprint/templates/tabs/control.jinja2:37
+#: src/octoprint/templates/tabs/control.jinja2:34
 msgid "Home X/Y"
 msgstr "Home X/Y"
 
-#: src/octoprint/templates/tabs/control.jinja2:38
+#: src/octoprint/templates/tabs/control.jinja2:35
 msgid "Home Z"
 msgstr "Home Z"
 
-#: src/octoprint/templates/tabs/control.jinja2:39
+#: src/octoprint/templates/tabs/control.jinja2:36
 msgid "Stepsize"
 msgstr "Schrittgröße"
 
-#: src/octoprint/templates/tabs/control.jinja2:45
+#: src/octoprint/templates/tabs/control.jinja2:42
 msgid ""
 "Hint: If you move your mouse over the picture, you enter keyboard control"
 " mode."
 msgstr "Hinweis: Bewegen der Maus über das Bild aktiviert die Tastatursteuerung."
 
-#: src/octoprint/templates/tabs/control.jinja2:91
+#: src/octoprint/templates/tabs/control.jinja2:88
 msgid "Feed rate modifier:"
 msgstr "Feedrate-Modifier:"
 
-#: src/octoprint/templates/tabs/control.jinja2:91
-#: src/octoprint/templates/tabs/control.jinja2:119
-#: src/octoprint/templates/tabs/control.jinja2:124
+#: src/octoprint/templates/tabs/control.jinja2:88
+#: src/octoprint/templates/tabs/control.jinja2:116
+#: src/octoprint/templates/tabs/control.jinja2:121
 msgid "Please note!"
 msgstr "Bitte beachten!"
 
-#: src/octoprint/templates/tabs/control.jinja2:91
+#: src/octoprint/templates/tabs/control.jinja2:88
 msgid ""
 "The feed rate can only be set, it cannot be read back from the firmware "
 "due to a limitation of the communication protocol. There is no way to "
@@ -8669,19 +8647,19 @@ msgstr ""
 "Kommunikationsprotokoll. Es gibt keine Möglichkeit, den aktuellen Wert "
 "anzuzeigen."
 
-#: src/octoprint/templates/tabs/control.jinja2:107
+#: src/octoprint/templates/tabs/control.jinja2:104
 msgid "Extrude"
 msgstr "Extrude"
 
-#: src/octoprint/templates/tabs/control.jinja2:108
+#: src/octoprint/templates/tabs/control.jinja2:105
 msgid "Retract"
 msgstr "Retract"
 
-#: src/octoprint/templates/tabs/control.jinja2:112
+#: src/octoprint/templates/tabs/control.jinja2:109
 msgid "Switch Tool..."
 msgstr "Werkzeugwechsel..."
 
-#: src/octoprint/templates/tabs/control.jinja2:119
+#: src/octoprint/templates/tabs/control.jinja2:116
 msgid ""
 "The selected tool can only be set, it cannot be read back from the "
 "firmware due to a limitation of the communication protocol. There is no "
@@ -8692,11 +8670,11 @@ msgstr ""
 "Kommunikationsprotokoll. Es gibt keine Möglichkeit, den aktuellen Wert "
 "anzuzeigen."
 
-#: src/octoprint/templates/tabs/control.jinja2:124
+#: src/octoprint/templates/tabs/control.jinja2:121
 msgid "Flow rate modifier:"
 msgstr "Flowrate-Modifier:"
 
-#: src/octoprint/templates/tabs/control.jinja2:124
+#: src/octoprint/templates/tabs/control.jinja2:121
 msgid ""
 "The flow rate can only be set, it cannot be read back from the firmware "
 "due to a limitation of the communication protocol. There is no way to "
@@ -8707,15 +8685,15 @@ msgstr ""
 "Kommunikationsprotokoll. Es gibt keine Möglichkeit, den aktuellen Wert "
 "anzuzeigen."
 
-#: src/octoprint/templates/tabs/control.jinja2:137
+#: src/octoprint/templates/tabs/control.jinja2:134
 msgid "Motors off"
 msgstr "Motoren aus"
 
-#: src/octoprint/templates/tabs/control.jinja2:138
+#: src/octoprint/templates/tabs/control.jinja2:135
 msgid "Fan on"
 msgstr "Lüfter an"
 
-#: src/octoprint/templates/tabs/control.jinja2:139
+#: src/octoprint/templates/tabs/control.jinja2:136
 msgid "Fan off"
 msgstr "Lüfter aus"
 
@@ -8998,3 +8976,44 @@ msgstr "Ungerenderte Zeitrafferaufnahme löschen"
 #: src/octoprint/templates/tabs/timelapse.jinja2:201
 msgid "Render timelapse"
 msgstr "Zeitrafferaufnahme rendern"
+
+#~ msgid "You are still running Python 2"
+#~ msgstr "Du nutzt noch immer Python 2"
+
+#~ msgid ""
+#~ "<p>Python 2 is end-of-life as "
+#~ "of January 1st 2020. While OctoPrint "
+#~ "currently still supports running under "
+#~ "Python 2, a future version will "
+#~ "remove support and require Python 3. "
+#~ "You should upgrade as soon as "
+#~ "possible!</p><p>Please refer to the FAQ "
+#~ "for recommended update workflows:</p>"
+#~ msgstr ""
+#~ "<p>Python 2 ist seit dem 1. Januar"
+#~ " 2020 end-of-life. Zwar unterstützt"
+#~ " OctoPrint aktuell noch Python 2, "
+#~ "eine zukünftige Version wird jedoch "
+#~ "Python 3 benötigen. Du solltest so "
+#~ "bald wie möglich auf Python 3 "
+#~ "aktualisieren!</p><p>Die FAQ enthält Informationen"
+#~ " über mögliche Upgradepfade:</p>"
+
+#~ msgid "ICE server (STUN and/or TURN) to use for WebRTC"
+#~ msgstr ""
+
+#~ msgid "WebRTC ICE endpoint"
+#~ msgstr ""
+
+#~ msgid "WebRTC"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Only used for WebRTC streams. Optionally"
+#~ " specify the ICE server(s) (STUN "
+#~ "and/or TURN) to use for WebRTC. "
+#~ "Multiple servers should be separated by"
+#~ " a comma. If unsure, leave at "
+#~ "the default of "
+#~ "<code>stun:stun.l.google.com:19302</code>."
+#~ msgstr ""
