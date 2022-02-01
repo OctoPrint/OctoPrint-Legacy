@@ -13,6 +13,7 @@ meta/.*
 rc/.*
 hotfix/.*
 prerelease
+python2
 
 # neither should disconnected checkouts, e.g. 'git checkout <tag>'
 HEAD
