@@ -378,7 +378,6 @@ default_settings = {
                     "plugin_eventmanager",
                     "plugin_backup",
                     "plugin_tracking",
-                    "plugin_errortracking",
                     "plugin_pi_support",
                 ],
                 "usersettings": ["access", "interface"],
