@@ -41,7 +41,7 @@ INSTALL_REQUIRES = [
     "netifaces==0.11.0",
     "OctoPrint-FileCheck==2021.2.23",
     "OctoPrint-FirmwareCheck==2021.10.11",
-    "OctoPrint-PiSupport==2021.10.28",
+    "OctoPrint-PiSupport==2022.3.1",
     "pkginfo==1.8.2",
     "psutil==5.9.0",
     "pylru==1.2.0",
