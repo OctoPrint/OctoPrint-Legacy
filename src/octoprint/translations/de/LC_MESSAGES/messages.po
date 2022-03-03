@@ -3,9 +3,9 @@
 # This file is distributed under the same license as the OctoPrint project.
 msgid ""
 msgstr ""
-"Project-Id-Version: OctoPrint 1.7.0\n"
+"Project-Id-Version: OctoPrint 1.7.3.post1\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
-"POT-Creation-Date: 2022-02-01 13:23+0100\n"
+"POT-Creation-Date: 2022-03-03 14:38+0100\n"
 "PO-Revision-Date: 2021-08-04 11:01+0200\n"
 "Last-Translator: Gina Häußge <gina@octoprint.org>\n"
 "Language: de\n"
@@ -14,7 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: src/octoprint/access/permissions.py:283
 msgid "Admin is allowed to do everything"
@@ -182,7 +182,6 @@ msgid "Action Command Notification Settings"
 msgstr "Action Command Notification Einstellungen"
 
 #: src/octoprint/plugins/action_command_notification/templates/action_command_notification_settings.jinja2:7
-#: src/octoprint/plugins/errortracking/static/js/errortracking.js:70
 msgid "Enable"
 msgstr "Aktivieren"
 
@@ -1434,130 +1433,6 @@ msgstr ""
 "Ohne dieses Plugin wird deine OctoPrint Instanz nicht mehr in deinem "
 "Netzwerk mittels Bonjour oder uPnP automatisch auffindbar sein."
 
-#: src/octoprint/plugins/errortracking/__init__.py:87
-#: src/octoprint/plugins/errortracking/templates/errortracking_settings.jinja2:1
-msgid "Error Tracking"
-msgstr "Fehlertracking"
-
-#: src/octoprint/plugins/errortracking/static/js/errortracking.js:39
-msgid "Enable error reporting?"
-msgstr "Fehlertracking aktivieren?"
-
-#: src/octoprint/plugins/errortracking/static/js/errortracking.js:40
-msgid ""
-"<p>It looks like you are tracking an OctoPrint RC release channel. It "
-"would be great if you would enable error reporting so that any kind of "
-"errors that occur with an RC can be looked into more easily. Thank "
-"you!</p><p><small>You can find more information on error reporting under "
-"Settings > Error Tracking</small></p>"
-msgstr ""
-"<p>Es sieht so also, als hättest du einen OctoPrint RC Release Channel "
-"abonniert. Es wäre klasse, wenn du Fehlertracking einschalten würdest, so"
-" dass jedwede Art von Fehler, die mit diesem RC auftritt, einfacher "
-"untersucht werden kann. Danke!</p><p><small>Du kannst mehr zum "
-"Fehlertracking erfahren unter Einstellungen > Fehlertracking</p>"
-
-#: src/octoprint/plugins/errortracking/static/js/errortracking.js:52
-#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:506
-#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:537
-#: src/octoprint/static/js/app/viewmodels/loginstate.js:147
-#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:504
-msgid "Ignore"
-msgstr "Ignorieren"
-
-#: src/octoprint/plugins/errortracking/static/js/errortracking.js:57
-msgid "You can still enable error tracking via \"Settings\" > \"Error Tracking\""
-msgstr ""
-"Du kannst Fehlertracking immer noch einschalten via \"Einstellungen\" > "
-"\"Fehlertracking\""
-
-#: src/octoprint/plugins/errortracking/templates/errortracking_settings.jinja2:3
-msgid ""
-"\n"
-"<p>\n"
-"    Error tracking will cause any logged exceptions in the server and the"
-" browser interface to be sent\n"
-"    to OctoPrint's <a href=\"https://sentry.io/\" target=\"_blank\" "
-"rel=\"noopener noreferer\">Sentry instance</a>.\n"
-"</p>\n"
-"<p>\n"
-"    By enabling it you help to gather detailed information on the cause "
-"of bugs or other issues. This is especially valuable\n"
-"    on release candidates, which is why this plugin will also prompt you "
-"to enable error tracking if it detects that\n"
-"    you are subscribed to an RC release channel.\n"
-"</p>\n"
-"<p>\n"
-"    Please enable this if you are running a release candidate, or are "
-"prompted to do so while debugging an issue that you reported.\n"
-"</p>\n"
-msgstr ""
-"\n"
-"<p>\n"
-"  Fehlertracking sendet jede geloggte Exception in Server und "
-"Webinterface zu OctoPrint's <a href=\"https://sentry.io/\" "
-"target=\"_blank\" rel=\"noopener noreferer\">Sentry-Instanz</a>.\n"
-"</p>\n"
-"<p>\n"
-"  Wenn du es einschaltest hilfst du, detaillierte Informationen zu den "
-"Hintergründen von Bugs und anderen Problemen to sammeln. Das\n"
-"  ist besonders wertvoll bei Release Candidates, weshalb dich dieses "
-"Plugin auch bittet, es einzuschalten, wenn es erkennt, dass du\n"
-"  einen RC Release Channel abonniert hast.\n"
-"</p>\n"
-"<p>\n"
-"  Bitte aktiviere dieses Plugin, wenn du einen Release Candidate nutzt, "
-"oder wenn du darum im Rahmen des Debuggings eines von dir gemeldeten\n"
-"  Problems gebeten wirst.\n"
-"</p>\n"
-
-#: src/octoprint/plugins/errortracking/templates/errortracking_settings.jinja2:22
-msgid "Enable error tracking"
-msgstr "Fehlertracking aktivieren"
-
-#: src/octoprint/plugins/errortracking/templates/errortracking_settings.jinja2:24
-msgid "Please reload the page after enabling/disabling & saving"
-msgstr "Bitte lade die Seite neu nach Aktivieren/Deaktivieren & Speichern"
-
-#: src/octoprint/plugins/errortracking/templates/errortracking_settings.jinja2:28
-#: src/octoprint/plugins/tracking/templates/tracking_settings.jinja2:14
-msgid "Random unique instance ID"
-msgstr "Zufällige eindeutige Instanzkennung"
-
-#: src/octoprint/plugins/errortracking/templates/errortracking_settings.jinja2:28
-#: src/octoprint/plugins/tracking/templates/tracking_settings.jinja2:14
-msgid "Instance ID"
-msgstr "Instanzkennung"
-
-#: src/octoprint/plugins/errortracking/templates/errortracking_settings.jinja2:35
-msgid ""
-"\n"
-"<p>\n"
-"    The Error Tracking plugin is using a Sentry instance kindly provided "
-"by\n"
-"    <a href=\"https://sentry.io/\" target=\"_blank\" rel=\"noopener "
-"noreferer\">sentry.io</a>. For information on their service\n"
-"    please refer to their <a href=\"https://sentry.io/security/\" "
-"target=\"_blank\" rel=\"noopener noreferer\">Security & Compliance "
-"documentation</a>\n"
-"    and their <a href=\"https://sentry.io/privacy/\" target=\"_blank\" "
-"rel=\"noopener noreferer\">Privacy Policy</a>.\n"
-"</p>\n"
-msgstr ""
-"\n"
-"<p>\n"
-"  Das Fehlertrackingplugin nutzt eine Sentry-Instanz die "
-"freundlicherweise von\n"
-"  <a href=\"https://sentry.io/\" target=\"_blank\" rel=\"noopener "
-"noreferer\">sentry.io</a> zur Verfügung gestellt wird. Für Informationen "
-"zu ihrem Service\n"
-"  schau dir bitte ihre <a href=\"https://sentry.io/security/\" "
-"target=\"_blank\" rel=\"noopener noreferer\">Security & Compliance "
-"documentation</a> und ihre\n"
-"  <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener"
-" noreferer\">Privacy Policy</a> an.\n"
-"</p>\n"
-
 #: src/octoprint/plugins/eventmanager/__init__.py:39
 #: src/octoprint/plugins/eventmanager/__init__.py:57
 msgid "Event Manager"
@@ -1597,7 +1472,6 @@ msgstr "Event"
 
 #: src/octoprint/plugins/eventmanager/templates/eventmanager_settings.jinja2:7
 #: src/octoprint/plugins/eventmanager/templates/eventmanager_settings.jinja2:36
-#, fuzzy
 msgid "Command"
 msgstr "Befehl"
 
@@ -2124,7 +1998,6 @@ msgid "Installing plugin..."
 msgstr "Installiere Plugin..."
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:427
-#, fuzzy
 msgid "Installing plugin from uploaded file..."
 msgstr "Installiere Plugin von hochgeladenem Archiv..."
 
@@ -2333,9 +2206,8 @@ msgid "Cleanup all: %(result)s"
 msgstr "Alle Daten löschen: %(result)s"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1300
-#, fuzzy
 msgid "Why?"
-msgstr "\"Warum?\""
+msgstr "Warum?"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1314
 msgid "A restart is needed for the changes to take effect."
@@ -2518,7 +2390,6 @@ msgstr ""
 "deaktiviert.\n"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:24
-#, fuzzy
 msgid ""
 "\n"
 "    The system OctoPrint is running on is currently throttled. Due to "
@@ -2532,7 +2403,9 @@ msgstr ""
 "    Das System, auf dem OctoPrint läuft, ist aktuell leistungsbegrenzt. "
 "Um mögliche Probleme in Folge von dadurch\n"
 "    verursachter Systeminstabilität zu verhindern, ist es daher aktuell "
-"nicht möglich, neue Plugins zu installieren.\n"
+"nicht möglich, neue Plugins zu installieren. Lies mehr dazu in\n"
+"    <a href=\"https://faq.octoprint.org/pi-issues\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">der FAQ</a>.\n"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:32
 msgid ""
@@ -2547,7 +2420,6 @@ msgstr ""
 "    neue Plugins aus dem Pluginrepository oder von URL zu installieren.\n"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:39
-#, fuzzy
 msgid ""
 "\n"
 "    There appears to have been an error retrieving the plugin data from "
@@ -3011,9 +2883,8 @@ msgstr "Software Update"
 
 #: src/octoprint/plugins/softwareupdate/__init__.py:1435
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_wizard_update.jinja2:1
-#, fuzzy
 msgid "Update?"
-msgstr "Aktualisieren"
+msgstr "Aktualisieren?"
 
 #: src/octoprint/plugins/softwareupdate/__init__.py:2207
 #: src/octoprint/server/views.py:1048
@@ -3113,6 +2984,13 @@ msgstr ""
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:488
 msgid "Update Available"
 msgstr "Aktualisierung verfügbar"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:506
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:537
+#: src/octoprint/static/js/app/viewmodels/loginstate.js:147
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:504
+msgid "Ignore"
+msgstr "Ignorieren"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:510
 msgid ""
@@ -3470,7 +3348,6 @@ msgstr ""
 "    </p>\n"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:52
-#, fuzzy
 msgid ""
 "\n"
 "    <p>\n"
@@ -3505,6 +3382,10 @@ msgstr ""
 " Warnung in der Navigationsleiste an, finde heraus,\n"
 "        was nicht stimmt und wie du es möglicherweise beheben kannst.\n"
 "    </p>\n"
+"    <p>\n"
+"        Lies mehr dazu in <a href=\"https://faq.octoprint.org/pi-"
+"issues\" target=\"_blank\" rel=\"noopener noreferrer\">der FAQ</a>.\n"
+"    </p>\n"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:66
 msgid ""
@@ -3538,9 +3419,8 @@ msgstr "Aktuelle Versionen"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:81
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:132
-#, fuzzy
 msgid "Update log"
-msgstr "Jetzt aktualisieren"
+msgstr "Aktualisierungslog"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:88
 msgid "Update all"
@@ -3794,6 +3674,14 @@ msgstr ""
 #: src/octoprint/plugins/tracking/templates/tracking_settings.jinja2:9
 msgid "Enable anonymous usage tracking"
 msgstr "Anonymous Usage Tracking aktivieren"
+
+#: src/octoprint/plugins/tracking/templates/tracking_settings.jinja2:14
+msgid "Random unique instance ID"
+msgstr "Zufällige eindeutige Instanzkennung"
+
+#: src/octoprint/plugins/tracking/templates/tracking_settings.jinja2:14
+msgid "Instance ID"
+msgstr "Instanzkennung"
 
 #: src/octoprint/plugins/tracking/templates/tracking_settings.jinja2:20
 msgid "Events to track. The ping is mandatory."
@@ -4190,20 +4078,24 @@ msgstr ""
 "%(reason)s</p>"
 
 #: src/octoprint/static/js/app/dataupdater.js:241
-msgid "You are still running Python 2 and will no longer receive updates"
-msgstr "Du nutzt noch immer Python 2 und wirst keine Updates mehr erhalten"
+msgid ""
+"You are still running Python 2 and will no longer receive OctoPrint "
+"updates"
+msgstr "Du nutzt noch immer Python 2 und wirst keine OctoPrint-Updates mehr erhalten"
 
 #: src/octoprint/static/js/app/dataupdater.js:245
 msgid ""
 "<p>Python 2 has been end-of-life since January 1st 2020. OctoPrint 1.8.0 "
 "and later requires Python 3. As you are still running under Python 2 you "
-"will no longer receive updates. You should upgrade to Python 3 "
-"now!</p><p>Please refer to the FAQ for recommended update workflows:</p>"
+"will no longer receive updates for OctoPrint. You should upgrade to "
+"Python 3 now!</p><p>Please refer to the FAQ for recommended update "
+"workflows:</p>"
 msgstr ""
 "<p>Python 2 ist seit dem 1. Januar 2020 end-of-life. OctoPrint 1.8.0 und "
-"spätere Versionen benötigen Python 3. Da du noch immer Python 2 nutzt, wirst "
-"du keine Updates mehr erhalten. Du solltest jetzt auf Python 3 aktualisieren!</p>"
-"<p>Die FAQ enthält Informationen über mögliche Upgradepfade:</p>"
+"spätere Versionen benötigen Python 3. Da du noch immer Python 2 nutzt, "
+"wirst du keine OctoPrint-Updates mehr erhalten. Du solltest jetzt auf Python 3 "
+"aktualisieren!</p><p>Die FAQ enthält Informationen über mögliche "
+"Upgradepfade:</p>"
 
 #: src/octoprint/static/js/app/dataupdater.js:299
 #: src/octoprint/static/js/app/viewmodels/files.js:1349
@@ -5591,7 +5483,6 @@ msgid "Please log in"
 msgstr "Bitte einloggen"
 
 #: src/octoprint/templates/login.jinja2:46
-#, fuzzy
 msgid "Incorrect username or password."
 msgstr "Username oder Passwort inkorrekt."
 
@@ -5634,9 +5525,8 @@ msgstr "Systembefehle"
 
 #: src/octoprint/templates/recovery.jinja2:64
 #: src/octoprint/templates/recovery.jinja2:81
-#, fuzzy
 msgid "System info bundle"
-msgstr "Systeminfo"
+msgstr "Systeminfobundle"
 
 #: src/octoprint/templates/recovery.jinja2:65
 #: src/octoprint/templates/recovery.jinja2:86
@@ -5733,9 +5623,8 @@ msgid "Currently:"
 msgstr "Aktuell:"
 
 #: src/octoprint/templates/dialogs/files.jinja2:36
-#, fuzzy
 msgid "Set destination filename "
-msgstr "Wähle Zielverzeichnis für "
+msgstr "Wähle Zieldatei für "
 
 #: src/octoprint/templates/dialogs/files.jinja2:41
 msgid "File/Folder will be moved to: "
@@ -6463,17 +6352,14 @@ msgstr ""
 "Werkzeugwechselbefehlen <code>Tn</code> gesendet."
 
 #: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:56
-#, fuzzy
 msgid "After serial connection to printer is established"
 msgstr "Nach Verbindung mit dem Drucker"
 
 #: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:62
-#, fuzzy
 msgid "Before serial connection to printer is closed"
 msgstr "Bevor die Verbindung zum Drucker geschlossen wird"
 
 #: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:65
-#, fuzzy
 msgid ""
 "Anything you put here will only be executed when closing the serial "
 "connection actively. If the serial connection to the printer is suddenly "
@@ -6622,9 +6508,8 @@ msgid "Uncheck this if you are having problems connecting to your printer."
 msgstr "Deaktiviere das, falls du Probleme bei der Verbindung zum Drucker hast."
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:75
-#, fuzzy
 msgid "Request low latency mode on the serial port"
-msgstr "Exklusiven Zugriff auf die serielle Schnittstelle anfordern"
+msgstr "Low-Latency-Zugriff auf die serielle Schnittstelle anfordern"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:80
 msgid "Apply parity double open workaround"
@@ -6740,18 +6625,16 @@ msgid "SD status interval (autoreport)"
 msgstr "SD-Statusintervall (autoreport)"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:158
-#, fuzzy
 msgid ""
 "Position interval to request from autoreport capable firmwares. A value "
 "of 0 disables autoreporting by the firmware."
 msgstr ""
-"Von der autoreportfähigen Firmware anzuforderndes SD-Statusintervall. Ein"
+"Von der autoreportfähigen Firmware anzuforderndes Positionsintervall. Ein"
 " Wert von 0 deaktiviert Autoreporting der Firmware und forciert Polling."
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:159
-#, fuzzy
 msgid "Position autoreport interval"
-msgstr "Snapshotintervall"
+msgstr "Positionsintervall"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:170
 msgid "Timeouts"
@@ -6998,9 +6881,8 @@ msgid "Support sd status autoreporting by firmware, if detected"
 msgstr "SD-Status-Autoreporting durch die Firmware unterstützen, falls detektiert"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:367
-#, fuzzy
 msgid "Support position autoreporting by firmware, if detected"
-msgstr "SD-Status-Autoreporting durch die Firmware unterstützen, falls detektiert"
+msgstr "Positions-Autoreporting durch die Firmware unterstützen, falls detektiert"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:374
 msgid ""
@@ -7092,7 +6974,6 @@ msgstr ""
 "betätigt wurde."
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:436
-#, fuzzy
 msgid "Ignored commands"
 msgstr "Ignorierte Befehle"
 
@@ -9017,3 +8898,135 @@ msgstr "Zeitrafferaufnahme rendern"
 #~ "the default of "
 #~ "<code>stun:stun.l.google.com:19302</code>."
 #~ msgstr ""
+
+#~ msgid "Error Tracking"
+#~ msgstr "Fehlertracking"
+
+#~ msgid "Enable error reporting?"
+#~ msgstr "Fehlertracking aktivieren?"
+
+#~ msgid ""
+#~ "<p>It looks like you are tracking "
+#~ "an OctoPrint RC release channel. It "
+#~ "would be great if you would enable"
+#~ " error reporting so that any kind "
+#~ "of errors that occur with an RC"
+#~ " can be looked into more easily. "
+#~ "Thank you!</p><p><small>You can find more "
+#~ "information on error reporting under "
+#~ "Settings > Error Tracking</small></p>"
+#~ msgstr ""
+#~ "<p>Es sieht so also, als hättest "
+#~ "du einen OctoPrint RC Release Channel"
+#~ " abonniert. Es wäre klasse, wenn du"
+#~ " Fehlertracking einschalten würdest, so "
+#~ "dass jedwede Art von Fehler, die "
+#~ "mit diesem RC auftritt, einfacher "
+#~ "untersucht werden kann. Danke!</p><p><small>Du "
+#~ "kannst mehr zum Fehlertracking erfahren "
+#~ "unter Einstellungen > Fehlertracking</p>"
+
+#~ msgid ""
+#~ "You can still enable error tracking "
+#~ "via \"Settings\" > \"Error Tracking\""
+#~ msgstr ""
+#~ "Du kannst Fehlertracking immer noch "
+#~ "einschalten via \"Einstellungen\" > "
+#~ "\"Fehlertracking\""
+
+#~ msgid ""
+#~ "\n"
+#~ "<p>\n"
+#~ "    Error tracking will cause any "
+#~ "logged exceptions in the server and "
+#~ "the browser interface to be sent\n"
+#~ "    to OctoPrint's <a "
+#~ "href=\"https://sentry.io/\" target=\"_blank\" "
+#~ "rel=\"noopener noreferer\">Sentry instance</a>.\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "    By enabling it you help to "
+#~ "gather detailed information on the cause"
+#~ " of bugs or other issues. This "
+#~ "is especially valuable\n"
+#~ "    on release candidates, which is "
+#~ "why this plugin will also prompt "
+#~ "you to enable error tracking if it"
+#~ " detects that\n"
+#~ "    you are subscribed to an RC release channel.\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "    Please enable this if you are"
+#~ " running a release candidate, or are"
+#~ " prompted to do so while debugging"
+#~ " an issue that you reported.\n"
+#~ "</p>\n"
+#~ msgstr ""
+#~ "\n"
+#~ "<p>\n"
+#~ "  Fehlertracking sendet jede geloggte "
+#~ "Exception in Server und Webinterface zu"
+#~ " OctoPrint's <a href=\"https://sentry.io/\" "
+#~ "target=\"_blank\" rel=\"noopener noreferer\">Sentry-"
+#~ "Instanz</a>.\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "  Wenn du es einschaltest hilfst "
+#~ "du, detaillierte Informationen zu den "
+#~ "Hintergründen von Bugs und anderen "
+#~ "Problemen to sammeln. Das\n"
+#~ "  ist besonders wertvoll bei Release "
+#~ "Candidates, weshalb dich dieses Plugin "
+#~ "auch bittet, es einzuschalten, wenn es"
+#~ " erkennt, dass du\n"
+#~ "  einen RC Release Channel abonniert hast.\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "  Bitte aktiviere dieses Plugin, wenn"
+#~ " du einen Release Candidate nutzt, "
+#~ "oder wenn du darum im Rahmen des"
+#~ " Debuggings eines von dir gemeldeten\n"
+#~ ""
+#~ "  Problems gebeten wirst.\n"
+#~ "</p>\n"
+
+#~ msgid "Enable error tracking"
+#~ msgstr "Fehlertracking aktivieren"
+
+#~ msgid "Please reload the page after enabling/disabling & saving"
+#~ msgstr "Bitte lade die Seite neu nach Aktivieren/Deaktivieren & Speichern"
+
+#~ msgid ""
+#~ "\n"
+#~ "<p>\n"
+#~ "    The Error Tracking plugin is "
+#~ "using a Sentry instance kindly provided"
+#~ " by\n"
+#~ "    <a href=\"https://sentry.io/\" target=\"_blank\""
+#~ " rel=\"noopener noreferer\">sentry.io</a>. For "
+#~ "information on their service\n"
+#~ "    please refer to their <a "
+#~ "href=\"https://sentry.io/security/\" target=\"_blank\" "
+#~ "rel=\"noopener noreferer\">Security & Compliance "
+#~ "documentation</a>\n"
+#~ "    and their <a "
+#~ "href=\"https://sentry.io/privacy/\" target=\"_blank\" "
+#~ "rel=\"noopener noreferer\">Privacy Policy</a>.\n"
+#~ "</p>\n"
+#~ msgstr ""
+#~ "\n"
+#~ "<p>\n"
+#~ "  Das Fehlertrackingplugin nutzt eine "
+#~ "Sentry-Instanz die freundlicherweise von\n"
+#~ "  <a href=\"https://sentry.io/\" target=\"_blank\""
+#~ " rel=\"noopener noreferer\">sentry.io</a> zur "
+#~ "Verfügung gestellt wird. Für Informationen "
+#~ "zu ihrem Service\n"
+#~ "  schau dir bitte ihre <a "
+#~ "href=\"https://sentry.io/security/\" target=\"_blank\" "
+#~ "rel=\"noopener noreferer\">Security & Compliance "
+#~ "documentation</a> und ihre\n"
+#~ "  <a href=\"https://sentry.io/privacy/\" "
+#~ "target=\"_blank\" rel=\"noopener noreferer\">Privacy "
+#~ "Policy</a> an.\n"
+#~ "</p>\n"
