@@ -239,11 +239,11 @@ function DataUpdater(allViewModels, connectCallback, disconnectCallback) {
             if (PYTHON_VERSION && PYTHON_VERSION.startsWith("2.")) {
                 self._python2Popup = new PNotify({
                     title: gettext(
-                        "You are still running Python 2 and will no longer receive updates"
+                        "You are still running Python 2 and will no longer receive OctoPrint updates"
                     ),
                     text: _.sprintf(
                         gettext(
-                            "<p>Python 2 has been end-of-life since January 1st 2020. OctoPrint 1.8.0 and later requires Python 3. As you are still running under Python 2 you will no longer receive updates. You should upgrade to Python 3 now!</p><p>Please refer to the FAQ for recommended update workflows:</p>"
+                            "<p>Python 2 has been end-of-life since January 1st 2020. OctoPrint 1.8.0 and later requires Python 3. As you are still running under Python 2 you will no longer receive updates for OctoPrint. You should upgrade to Python 3 now!</p><p>Please refer to the FAQ for recommended update workflows:</p>"
                         ) +
                             "<p><a href='https://faq.octoprint.org/python3-update' target='_blank' rel='noopener noreferer'>How to migrate to Python 3</a></p>",
                         {reason: _.escape(reason)}
